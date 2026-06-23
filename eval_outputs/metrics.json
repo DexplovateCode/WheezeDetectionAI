@@ -1,0 +1,78 @@
+{
+  "overall_accuracy": 0.0,
+  "macro_f1": 0.0,
+  "macro_auc_roc": NaN,
+  "wheeze_sensitivity": 0.0,
+  "wheeze_specificity": 1.0,
+  "wheeze_auc": 0.3860363469825464,
+  "wheeze_tp": 0,
+  "wheeze_tn": 10994,
+  "wheeze_fp": 0,
+  "wheeze_fn": 1256,
+  "wheeze_support": 1256,
+  "abnormal_sensitivity": 1.0,
+  "abnormal_specificity": 0.0,
+  "abnormal_auc": 0.5,
+  "abnormal_tp": 4399,
+  "abnormal_tn": 0,
+  "abnormal_fp": 7851,
+  "abnormal_fn": 0,
+  "abnormal_support": 4399,
+  "classification_report": {
+    "I": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5107.0
+    },
+    "E": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2744.0
+    },
+    "D": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2335.0
+    },
+    "Rhonchi": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 709.0
+    },
+    "Wheeze": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1256.0
+    },
+    "Stridor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 99.0
+    },
+    "Other": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.0,
+    "macro avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12250.0
+    },
+    "weighted avg": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12250.0
+    }
+  }
+}

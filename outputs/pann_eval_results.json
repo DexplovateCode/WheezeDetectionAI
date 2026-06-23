@@ -1,0 +1,55 @@
+{
+  "model": "PANN CNN14",
+  "accuracy": 79.5505,
+  "macro_f1": 78.3593,
+  "auc_roc": 0.9267,
+  "per_class": {
+    "inspiration": {
+      "sensitivity": 80.59,
+      "specificity": 85.04,
+      "precision": 79.01,
+      "f1": 79.79,
+      "tp": 3259,
+      "fp": 866,
+      "fn": 785,
+      "tn": 4924
+    },
+    "expiration": {
+      "sensitivity": 71.29,
+      "specificity": 91.54,
+      "precision": 70.08,
+      "f1": 70.68,
+      "tp": 1525,
+      "fp": 651,
+      "fn": 614,
+      "tn": 7044
+    },
+    "abnormal": {
+      "sensitivity": 83.24,
+      "specificity": 92.01,
+      "precision": 86.02,
+      "f1": 84.6,
+      "tp": 3039,
+      "fp": 494,
+      "fn": 612,
+      "tn": 5689
+    }
+  },
+  "confusion_matrix": [
+    [
+      3259,
+      432,
+      353
+    ],
+    [
+      473,
+      1525,
+      141
+    ],
+    [
+      393,
+      219,
+      3039
+    ]
+  ]
+}
