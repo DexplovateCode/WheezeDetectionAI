@@ -82,6 +82,9 @@ Raw audio (.wav)
    A 6-block convolutional neural network (pretrained on the huge AudioSet
    dataset, then fine-tuned here) scans the spectrogram and compresses it
    into a 2048-number "fingerprint" of the sound.
+   PANN stands for Pretrained Audio Neural Networks — a family of models introduced in a 2020 paper by Kong et al., trained on AudioSet (Google's dataset of ~2 million 10-second audio clips covering 527 everyday sound classes: dogs barking, engines, speech, music, etc.).
+   CNN14 is the specific architecture in that family your project uses. The "14" refers to the number of weighted layers (12 conv layers across 6 conv blocks + 2 fully-connected layers).
+   A backbone just means: the feature-extracting part of the network, as opposed to the task-specific "head" that makes the final decision. The backbone's job is to turn raw input into a rich numerical summary; the head's job is to turn that summary into your actual answer (wheeze / no wheeze).
 
 5. **Classification head**
    A small fully-connected network turns that 2048-number fingerprint into
